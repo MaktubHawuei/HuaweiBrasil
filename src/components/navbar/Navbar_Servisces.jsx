@@ -1,4 +1,4 @@
-import '../../assets/css/Navbar_Servisces.css'
+import '../../assets/css/Css_components/Navbar_Servisces.css'
 
 export const Navbar_Servisces = (props) => {
 
