@@ -1,5 +1,5 @@
 .Header_ServicesClaud-div{
-  background-color: var(--CorCinza);
+  background-color: var(--CorBranco);
   position: absolute;
   width: 100%;
   z-index: 98;
@@ -8,7 +8,6 @@
 .Header_ServicesClaud-items{
     padding: 70px;
     font-family: var(--FontP);
-    /* background-color: var(--CorCinza); */
     width: 463px;
     height: 300px;
     z-index: 99;
@@ -17,7 +16,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    margin-left: 144px;
+    margin-left: 167px;
 }
 #img-cartoon{
     position: absolute;

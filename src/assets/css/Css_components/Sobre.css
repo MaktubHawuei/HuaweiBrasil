@@ -1,0 +1,51 @@
+#sobre{
+    padding-top: 230px;
+    background-color: var(--CorCinza);
+}
+
+.titulo-sobre{
+    color: #0f1f33;
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    color: #0f1f33;
+}
+
+.img-world{
+    height: 380px;
+    width: 550px;
+    border-radius: 50px;
+    margin-bottom: 24px;
+}
+
+.texto-sobre{
+    width: 580px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.texto-conteudo{
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.texto-conteudo2{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.titulo-sobre::after{
+    content: '';
+    width: 130px;
+    height: 4px;
+    background-color: #d11800;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+

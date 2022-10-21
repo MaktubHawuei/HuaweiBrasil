@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body{
+  font-family: var(--FontP);
+} 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 120px;
+    margin-left: 100px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    height: 80px;
+}
+.nav{
+    flex: 1;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;   
+}
+
+.menu a {
+    color: #0f1f33;
+    display: inline-block;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    transform: scale(1.05);
+}
+
+.menu a:before,
+.menu a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.menu a:before {
+  bottom: 0;
+  display: block;
+  height: 1px;
+  width: 0%;
+  content: "";
+  background-color: #d11800;
+}
+.menu a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #ffffff;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.menu a:hover:before,
+.menu .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+.menu a:hover:after,
+.menu .current a:after {
+  max-width: 100%;
+}
+
+
+
+  
+  

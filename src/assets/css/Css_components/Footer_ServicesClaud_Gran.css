@@ -1,0 +1,14 @@
+
+.Footer_ServicesClaud_Gran-div{
+    background-color: var(--CorCinza);
+    width: 100%;
+    height: 117px;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#img-footer{
+    width: 572px;
+}

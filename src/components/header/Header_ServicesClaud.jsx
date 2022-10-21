@@ -13,7 +13,7 @@ export const Header_ServicesClaud = (props) => {
                     <p>Amplie seu portfólio de serviços oferecido pela Huawei Cloud.</p>
                     <span>Conte com uma estrutura comercial, técnica e de marketing para desenvolver seus negócios em Cloud com margem, escala e recorrência.</span>
                 </span>
-                <button className='button-19'>Saiba mais</button>
+                <a href="https://www.huaweicloud.com/intl/pt-br/" target="_blank" className='button-19'>Saiba mais</a> 
             </div>
         </div>
     )
