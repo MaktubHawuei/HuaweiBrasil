@@ -1,6 +1,6 @@
 import '../../assets/css/Css_components/Parceria.css';
 import fotoTim from '../../assets/img/tim.jpg';
-import fotoClaro from '../../assets/img/Claro.jpg';
+import fotoClaro from '../../assets/img/claro.jpg';
 import fotoVivo from '../../assets/img/vivo.jpg';
 
 export function Parceria(props) {
