@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom"
 import HauweiServices from "./pages/HauweiServices"
-import HauweiSecurity from "./pages/HauweiSecurity"
+import HauweiServicesClaud from "./pages/HauweiServicesClaud"
 import HauweiConnect from "./pages/HauweiConnect"
 
 
@@ -10,7 +10,7 @@ export const RoutesJS = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HauweiServices />} />
-        <Route path="/hauweisecurity" element={<HauweiSecurity/>} />
+        <Route path="/hauweiservicesclaud" element={<HauweiServicesClaud/>} />
         <Route path="/hauweiconnect" element={<HauweiConnect/>} />
       </Routes>
     </BrowserRouter>

@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root{
+  --swiper-theme-color: #ff0000;
   --CorPreto: #000;
   --CorVermelho: rgb(255, 0, 0);
+  --CorVermelho2: rgb(219 49 49);
   --CorBranco: rgb(255, 255, 255);
+  --CorCinza: #eff1f4;
+  --Gradient: linear-gradient(0deg, rgb(255 48 48) 0%, rgb(8 8 8) 100%);
+  /* Fontes */
+  --FontP: 'Poppins', sans-serif;
+}
+*{
+  margin: 0px;
+  border: 0px;
 }
